@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" crossorigin="anonymous" ></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<h1>Portfolio<h1>
+<nav>
+	<ul id="mainMenu">
+		<li><a href="../../index.html">Homepage</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="rnd.html">R&D</a></li>
+		<li><a href="ideas.html">Ideas & Discussions</a></li>
+	</ul>
+</nav>
+<div id="portfolio" class="container-fluid">
+	<h2>Page is under renovation</h2>
+	<p>Some features might be incomplete at this time<p id="datetime"></p></p>
+	<h3><a href="portfolio/compvision.html">Computer Vision</a></h3>
+	<h3><a href="portfolio/datascience.html">Data Science</a></h3>
+	<h3><a href="portfolio/nlp.html">NLP/LLM</a></h3>
+	<!-- <h3><a href="portfolio/webdev.html">Web Development</a></h3> -->
+</div>
+<script>
+		  // Get current date and time
+		  var now = new Date();
+		  var datetime = now.toLocaleString();
+
+		  // Insert date and time into HTML
+		  document.getElementById("datetime").innerHTML = datetime;
+	</script>
+</body>
+</html>

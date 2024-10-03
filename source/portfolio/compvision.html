@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Computer Vision</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../../style.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" crossorigin="anonymous" ></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+<!-- <script src="app.js"></script> -->
+<h1>Computer Vision</h1>
+<nav>
+	<ul id="mainMenu">
+		<li><a href="../../index.html">Homepage</a></li>
+		<li><a href="../aboutme.html">About Me</a></li>
+		<li><a href="../portfolio.html">Portfolio</a></li>
+		<li><a href="../rnd.html">R&D</a></li>
+	</ul>
+</nav>
+<div id="compvision" class="container-fluid">
+	<h2>Image Processing Prototype for Company Engangement</h2>
+	<img src="basler_diag.png" style="max-width:850px;height:auto;width:auto\9"></img>
+	<div id="canvas-container">
+		<p style="text-indent:0">
+		A Basler acA1920-150uc model with a computar 
+		M1620-MPW2 lens was used to develop a 
+		prototype to detect chips that don't conform to specified dimensions on a conveyer belt.
+		</p>
+		<img src="3_p_error.png" style="max-width:850px;height:auto;width:auto\9"></img>
+		<p>
+		OpenCV and Pillow libraries were used to process the images sent by the camera. 
+		Referencing the Basler camera's specification, a pixel per cm scale can be established using reference chips 
+		that have been measured beforehand.
+		</p>
+<!--         <canvas id="input-canvas" width="400" height="400"></canvas>
+    </div>
+	<input type="file" id="upload" accept="image/*">
+	<button id="segment-button">Segment Image</button>
+    <div id="result-container">
+        <h2>Segmented Image</h2>
+        <canvas id="output-canvas" width="400" height="400"></canvas> -->
+    </div>
+	<h2>U-Net Medical Image Segmentation</h2>
+	<div id="canvas-container">
+		<ul>
+			<li>U-Net networks were used to segment images of artherosclerotic plaque in heart arteries.</li>
+			<li>Various parameters were used to experiment with intravascular optical coherence tomography (IVOCT) images</li>
+		</ul>
+    </div>
+</div>
+</body>
+</html>

@@ -36,6 +36,11 @@ nav ul {
 	content:'|'
 }
 
-#background div{
-	font-size="12px"
+#background{
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+}
+
+#background dd{
+	font-size: 1.25rem;
 }
